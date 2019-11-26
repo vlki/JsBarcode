@@ -25,15 +25,6 @@ export const BINARIES = {
 	]
 };
 
-// Define the EAN-2 structure
-export const EAN2_STRUCTURE = ['LL', 'LG', 'GL', 'GG'];
-
-// Define the EAN-5 structure
-export const EAN5_STRUCTURE = [
-	'GGLLL', 'GLGLL', 'GLLGL', 'GLLLG', 'LGGLL',
-	'LLGGL', 'LLLGG', 'LGLGL', 'LGLLG', 'LLGLG'
-];
-
 // Define the EAN-13 structure
 export const EAN13_STRUCTURE = [
 	'LLLLLL', 'LLGLGG', 'LLGGLG', 'LLGGGL', 'LGLLGG',
